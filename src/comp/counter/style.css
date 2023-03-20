@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(61, 59, 59);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.con{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+.lut{
+    display: flex;
+    justify-content: center;
+}
+.plus{
+    color: white;
+    background-color: rgb(242, 140, 8);
+   border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+}
+.plus:hover{
+    background-color: white;
+    transition: 0.1s;
+}
+#minus{
+    font-size: 100px;
+}
+#razdel{
+    font-size: 100px;
+}
+.dad{
+    display: flex;
+    justify-content: center;
+}
+input{
+    border-radius: 10px 10px;
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    width: 70px;
+}
+.ravno,.result{
+    color: white;
+    font-size: 50px;
+}
+
+
